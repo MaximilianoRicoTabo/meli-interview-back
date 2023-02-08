@@ -1,4 +1,4 @@
-package com.meli.interview.back.subscription_api.exception;
+package com.meli.interview.back.subscription.api.models.exceptions;
 
 public class CollaboratorCallException extends RuntimeException {
 
@@ -8,8 +8,7 @@ public class CollaboratorCallException extends RuntimeException {
         super();
     }
 
-    public CollaboratorCallException(String message,
-                                     Throwable cause) {
+    public CollaboratorCallException(String message, Throwable cause) {
         super(message, cause);
     }
 

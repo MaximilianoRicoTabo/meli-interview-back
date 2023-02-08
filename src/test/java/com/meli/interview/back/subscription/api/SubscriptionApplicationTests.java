@@ -1,4 +1,4 @@
-package com.meli.interview.back.subscription_api;
+package com.meli.interview.back.subscription.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,5 +9,4 @@ class SubscriptionApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
